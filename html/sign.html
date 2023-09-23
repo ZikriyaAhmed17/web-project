@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(h.jpg);
+      background-size: cover;
+    }
+    
+    .signup-container {
+      width: 400px;
+      margin: 150px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+      background: transparent;
+    }
+    
+    .signup-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #073625;
+    }
+    
+    .signup-container input[type="text"],
+    .signup-container input[type="email"],
+    .signup-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      background-color: transparent;
+      caret-color: rgb(190, 78, 2);
+    }
+    .signup-container input[type="text"]::-webkit-input-placeholder{
+        color:black
+    }
+    .signup-container input[type="email"]::-webkit-input-placeholder{
+        color: black;
+    }
+    .signup-container input[type="password"]::-webkit-input-placeholder{
+        color: black;
+    }
+    .signup-container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(97, 188, 136);
+      color: white;
+      cursor: pointer;
+    }
+
+    
+    .signup-container input[type="submit"]:hover {
+      background-color: #035b3b;
+    }
+    
+    .signup-container p {
+      text-align: center;
+    }
+    
+    .signup-container span {
+      color: #999;
+    }
+    p{
+        font-weight: 700;
+        color: white;
+    }
+    p a{
+        color: #f3ebf0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Sign Up</h2>
+    <form>
+      <input type="text" placeholder="UserName" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="a1.html">Log in</a></p>
+   
+  </div>
+</body>
+</html>
